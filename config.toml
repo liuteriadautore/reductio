@@ -1,0 +1,54 @@
+baseURL = "https://reductio.liuteriadautore.com/"
+languageCode = "en-us"
+title = "Reductio"
+
+theme = "yuki"
+
+# Copyright notice. This will display on the footer.
+copyright = "Andrea Spada, Liuteria d'Autore"
+paginate = 10
+
+# Theme config
+[params]
+
+  # The content you want to be listed on list pages.
+  mainSections = ["post"]
+
+  # The information will display on the post pages.
+  author = "Andrea Spada"
+  description = "Luthier. Musicina. Nerd."
+  authorwebsite = "https://spadino.github.io/"
+
+  # The path to your images
+  favicon = "/images/reductio.png"
+  logo = "images/reductio.png"
+  avatar = ""
+  displayImg = "images/banner.jpg"
+
+  # This will display on the index page
+  snsTitle = "Social"
+
+  # Google Analytics API key.
+  ga_api_key = "Your Google Analytics tracking id"
+
+# Navbar config
+[[menu.nav]]
+    name = "HOME"
+    url = "#home"
+    weight = 1
+
+# [[menu.nav]]
+#     name = "ABOUT"
+#     url = "#about"
+#     weight = 3
+
+# [[menu.nav]]
+#     name = "GALLERY"
+#     url = "#gallery"
+#     weight = 5
+
+# Social accounts config (This will display on the index page)
+[[menu.social]]
+    name = "facebook"
+    url = "https://www.facebook.com/reductio.liuteriadautore"
+    weight = 1
